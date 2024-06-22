@@ -44,10 +44,13 @@ import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
 
+import rating_starts from './rating_starts.png'
+
 export const assets = {
     logo,
     basket_icon,
-    search_icon
+    search_icon,
+    rating_starts,
 }
 export const menu_list = [
     {
