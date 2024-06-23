@@ -46,12 +46,20 @@ import food_32 from './food_32.png'
 
 import rating_starts from './rating_starts.png'
 
+import add_icon_white from './add_icon_white.png'
+import remove_icon_red from './remove_icon_red.png'
+import add_icon_green from './add_icon_green.png'
+
 export const assets = {
     logo,
     basket_icon,
     search_icon,
     rating_starts,
+    add_icon_white,
+    remove_icon_red,
+    add_icon_green
 }
+
 export const menu_list = [
     {
         menu_name: "Salad",
