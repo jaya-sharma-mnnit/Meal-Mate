@@ -43,6 +43,7 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import cross_icon from './cross_icon.png'
 
 import rating_starts from './rating_starts.png'
 
@@ -64,12 +65,14 @@ export const assets = {
     rating_starts,
     add_icon_white,
     remove_icon_red,
+    cross_icon,
     add_icon_green,
     linkedin_icon,
     facebook_icon,
     twitter_icon,
     app_store,
     play_store
+   
 }
 
 export const menu_list = [

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import'./Navbar.css'
 import { assets } from '../../assets/assets'
-const Navbar = () => {
+
+const Navbar = ({setShowLogin}) => {
   const[menu,setMenu]=useState("home");
   return (
     <div className='navbar'>
@@ -19,7 +20,7 @@ const Navbar = () => {
            <div className='dot'></div>
            
          </div>
-         <button>sign in</button>
+         <button onClick={()=>setShowLogin(true)}>sign in</button>
       </div>
     </div>
   )
