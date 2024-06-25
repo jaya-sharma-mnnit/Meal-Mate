@@ -18,9 +18,9 @@ const App = () => {
       <Routes>
       <Route path='/' element={<Home/>}/>
 
-        <Route path='/' element={<Cart/>}/>
+        <Route path='/cart' element={<Cart/>}/>
         
-        <Route path='/' element={<PlaceOrder/>}/>
+        <Route path='/order' element={<PlaceOrder/>}/>
         </Routes>
     </div>
     <AppDownload/>
