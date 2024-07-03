@@ -58,6 +58,10 @@ import twitter_icon from './twitter_icon.png'
 import app_store from './app_store.png'
 import play_store from './play_store.png'
 
+import profile_icon from './profile_icon.png'
+import bag_icon from './bag_icon.png'
+import logout_icon from './logout_icon.png'
+
 export const assets = {
     logo,
     basket_icon,
@@ -71,7 +75,10 @@ export const assets = {
     facebook_icon,
     twitter_icon,
     app_store,
-    play_store
+    play_store,
+    profile_icon,
+    bag_icon,
+    logout_icon
    
 }
 
