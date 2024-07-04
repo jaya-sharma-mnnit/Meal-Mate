@@ -22,7 +22,7 @@ connectDB();
 
 //api endpoints
 app.use("/api/food",foodRouter)
-app.use("/image",express.static('uploads'))
+app.use("/images",express.static('uploads'))
 app.use("/api/user",userRouter)
 
 app.get("/",(req,res)=>{
